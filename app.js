@@ -30,7 +30,7 @@ const store = new mongoStore({
 
 const app = express();
 const corsOptions = {
-  origin: ["https://simple-social-media-app-drab.vercel.app", "localhost:5173"],
+  origin: ["https://simple-social-media-app-drab.vercel.app", "http://localhost:5173"],
   exposedHeaders: ["set-cookie"],
   credentials: true,
 };
